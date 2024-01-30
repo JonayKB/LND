@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Tienda de mascotas</title>
+  <link rel="alternate"
+href="http://jonaykb.infinityfreeapp.com"/>
+  <updated>2023-02-21T18:30:02Z</updated>
+  <author>
+    <name>Jonay Contreras</name>
+    <email>jonaykb@gmail.com</email>
+  </author>
+<id>http://jonaykb.infinityfreeapp.com</id>
+ 
+
+  <entry>
+    <title>Las mejores mascotas</title>
+    <link href="https://www.expertoanimal.com/animales-para-tener-en-casa-24454.html"/>
+    <id>https://www.expertoanimal.com/animales-para-tener-en-casa-24454.html</id>
+    <updated>2023-02-21T18:30:02Z</updated>
+    <summary>Aquí encontrarás las mejores mascotas para tu casa</summary>
+  </entry>
+
+</feed>
+
+
+

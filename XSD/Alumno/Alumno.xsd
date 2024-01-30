@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="alumnos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="alumno" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="grupo" type="xs:integer" use="optional"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+<xs:element name="alumno">
+
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element name="nombre" type="nameType"/>
+				<xs:element name="edad" type="edadType"/>
+				<xs:element maxOccurs="10" minOccurs="1" name="nota" type="notaType"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" name="telefono" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute name="dni" type="dniType" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nota"> 
+	<xs:complexType>
+	<xs:simpleContent>
+	<xs:extension base="xs:decimal">
+	<xs:attribute name="eval" type="xs:integer"></xs:attribute>
+	</xs:extension>
+	</xs:simpleContent>
+	</xs:complexType>
+	</xs:element>
+	
+	
+<xs:simpleType name="dniType">
+	
+<xs:restriction base="xs:string">
+	
+<xs:length value="8"/>
+	
+</xs:restriction>
+	
+</xs:simpleType>
+	
+	
+	
+	
+	
+
+<xs:simpleType name="nameType">
+	
+<xs:restriction base="xs:string">
+	<xs:minLength value="1"/>
+	<xs:maxLength value="10"/>
+	
+</xs:restriction>
+	
+</xs:simpleType>
+	
+	
+	
+	
+
+
+<xs:simpleType name="notaType">
+	
+<xs:restriction base="xs:decimal">
+	<xs:fractionDigits value="2"/>
+	<xs:totalDigits value="3"/>
+	
+</xs:restriction>
+	
+</xs:simpleType>
+	
+	
+	
+	
+
+
+
+<xs:simpleType name="edadType">
+	
+<xs:restriction base="xs:decimal">
+	<xs:fractionDigits value="1"/>
+	<xs:totalDigits value="4"/>
+	<xs:maxExclusive value="120"/>
+	
+</xs:restriction>
+	
+</xs:simpleType>
+	
+
+	
+	
+	
+
+
+
+
+<xs:simpleType name="inicialesType">
+	
+<xs:restriction base="xs:string">
+	<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+	
+</xs:restriction>
+	
+</xs:simpleType>
+
+
+	
+	
+
+
+
+
+
+</xs:schema>

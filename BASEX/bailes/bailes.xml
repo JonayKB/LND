@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bailes>
+<baile id="1">
+<nombre>Tango</nombre>
+<precio moneda="Euros" cuota="Mensual">75</precio>
+<comienzo>01/02/2024</comienzo>
+<fin>20/02/2024</fin>
+<profesor>Juan Luis</profesor>
+<sala>1</sala>
+<plazas>15</plazas>
+</baile>
+<baile id="2">
+<nombre>Salsa</nombre>
+<precio moneda="Dolares" cuota="Trimestral">75</precio>
+<comienzo>01/02/2024</comienzo>
+<fin>20/02/2024</fin>
+<profesor>Juan Luis</profesor>
+<sala>109</sala>
+<plazas>15</plazas>
+</baile>
+</bailes>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Fri Nov 03 19:33:51 WET 2023 -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<xs:element name="inventario">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="laboratorio" minOccurs="0" maxOccurs="unbounded">
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+
+<xs:element name="laboratorio" >
+<xs:complexType>
+<xs:sequence>
+<xs:element name="nombre" minOccurs="1" maxOccurs="1" type="xs:string"></xs:element>
+<xs:element name="personal" minOccurs="1" maxOccurs="1" type="xs:decimal"></xs:element>
+<xs:element name="ultimainspeccion" minOccurs="1" maxOccurs="1" type="xs:gYear"></xs:element>
+<xs:element ref="planta" minOccurs="1" maxOccurs="unbounded" ></xs:element>
+</xs:sequence>
+<xs:attribute name="codigo" use="required" type="xs:decimal"></xs:attribute>
+</xs:complexType>
+</xs:element>
+
+
+
+<xs:element name="planta">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="nombrecomun" maxOccurs="1" type="xs:string"></xs:element>
+<xs:element name="nombrebotanico" maxOccurs="1" type="xs:string"></xs:element>
+<xs:element name="clima" maxOccurs="1" type="xs:string"></xs:element>
+<xs:element ref="luz"  minOccurs="0" maxOccurs="1"></xs:element>
+</xs:sequence>
+<xs:attribute name="venenosa" fixed="si" use="optional"></xs:attribute>
+</xs:complexType>
+</xs:element>
+
+
+
+
+<xs:element name="luz">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:enumeration value="Penumbra"></xs:enumeration>
+<xs:enumeration value="Claridad"></xs:enumeration>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+
+
+
+</xs:schema>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version = "2.0">
+	<channel>
+		<title>Canal RSS Jonay</title>
+		<link>https://jonaykb.infinityfreeapp.com</link>
+		<description>Noticias de actualidad</description>
+		<item>
+			<title>Noticias de tecnología</title>
+			<link>https://www.xataka.com/</link>
+			<description>Noticias de Xataka</description>
+		</item>
+	</channel>
+</rss>
+
+

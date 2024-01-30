@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<alumno xsi:noNamespaceSchemaLocation="Practiaca1XSD.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<nombre>Jonay
+	</nombre>
+	<edad>18
+	</edad>
+	<nota>10
+	</nota>
+</alumno>

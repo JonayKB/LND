@@ -1,0 +1,27 @@
+
+<!ELEMENT luz  ( "Claridad"|"Penumbra" )>
+
+<!ELEMENT clima  ( #PCDATA )>
+
+<!ELEMENT ultimainspeccion  ( #PCDATA )>
+
+<!ELEMENT planta  ( nombrecomun , nombrebotanico , clima , luz )>
+<!ATTLIST planta
+venenosa CDATA #IMPLIED
+>
+
+<!ELEMENT nombrebotanico  ( #PCDATA )>
+
+<!ELEMENT personal  ( #PCDATA )>
+
+<!ELEMENT laboratorio  ( nombre , personal , ultimainspeccion , planta+ )>
+
+<!ATTLIST laboratorio
+codigo CDATA #REQUIRED
+>
+
+<!ELEMENT nombrecomun  ( #PCDATA )>
+
+<!ELEMENT inventario  ( laboratorio+ )>
+
+<!ELEMENT nombre  ( #PCDATA )>

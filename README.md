@@ -4,3 +4,6 @@
 
 ### BaseX
 - [Books.xml](/BASEX/books/)
+
+### Odoo
+- [Investigación oddo](/ODOO/README.md)

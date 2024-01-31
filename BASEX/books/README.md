@@ -1,0 +1,16 @@
+# Tarea Books.xml
+- [Consulta 1](./consulta1.xq);
+- [Consulta 2](./consulta2.xq);
+- [Consulta 3](./consulta3.xq);
+- [Consulta 4](./consulta4.xq);
+- [Consulta 5](./consulta5.xq);
+- [Consulta 6](./consulta6.xq);
+- [Consulta 7](./consulta7.xq);
+- [Consulta 8](./consulta8.xq);
+- [Consulta 9](./consulta9.xq);
+- [Consulta 10](./consulta10.xq);
+- [Consulta 11](./consulta11.xq);
+- [Consulta 12](./consulta12.xq);
+- [Consulta 13](./consulta13.xq);
+- [Consulta 14](./consulta14.xq);
+- [Consulta 15](./consulta15.xq);

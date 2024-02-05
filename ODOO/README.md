@@ -1,11 +1,25 @@
+<div align="justify">
+<div align="center">
+<img src="./resources/images/logoOddo.webp"/>
+</div>
+
+<!-- Autor: Jonay Contreras Rodriguez -->
+
 ### Índice
-- [¿Qué es Odoo?](#¿qué-es-odoo)
-- [Historia resumida de Odoo](#historia-resumida-de-odoo)
-- [Módulo de operaciones. Componentes Principales](#módulo-de-operaciones-componentes-principales)
-- [Módulo de ventas. Componentes Principales](#módulo-de-ventas-componentes-principales)
-- [Módulos de sitio web. Componentes Principales](#módulos-de-sitio-web-componentes-principales)
+
+
+
+- [Informe Odoo](#informe-odoo)
+    - [¿Qué es Odoo?](#¿qué-es-odoo)
+    - [Historia resumida de Odoo](#historia-resumida-de-odoo)
+    - [Módulo de operaciones. Componentes Principales](#módulo-de-operaciones-componentes-principales)
+    - [Módulo de ventas. Componentes Principales](#módulo-de-ventas-componentes-principales)
+    - [Módulos de sitio web. Componentes Principales](#módulos-de-sitio-web-componentes-principales)
+- [Dossier](#dossier)
+    - [Práctica 2](#pŕactica-2)
 ---
 
+ ### Informe Odoo
 - #### ¿Qué es Odoo?
     - Odoo es un sistema de gestión empresarial (ERP, por sus siglas en inglés: Enterprise Resource Planning) de código abierto. Proporciona una suite completa de aplicaciones empresariales que abarcan diversas áreas, como contabilidad, ventas, inventario, recursos humanos y más. Su objetivo es ayudar a las empresas a integrar y gestionar eficientemente sus procesos y datos.
 
@@ -20,3 +34,10 @@
 
 - #### Módulos de sitio web. Componentes Principales
     - Los módulos de sitio web en Odoo están diseñados para gestionar la presencia en línea de una empresa. Sus componentes principales abarcan la creación y personalización de páginas web, la integración de tiendas en línea, el seguimiento de visitantes, la gestión de contenido y la optimización para motores de búsqueda (SEO), permitiendo así una presencia web efectiva y atractiva.
+
+### Dossier
+
+- #### Pŕactica 2
+
+
+</div>

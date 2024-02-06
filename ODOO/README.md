@@ -38,6 +38,38 @@
 ### Dossier
 
 - #### Pŕactica 2
+    - Realiza un pequeño documento donde expliques con tus palabras la diferencia entre un ERP, un CRM, un CMS y una aplicación de E-Learning. 
+        - Diferencias ERP, CRM, CMS, y E-Learning:
+        
+            - El ERP se encarga de gestionar todas las funciones o metodos que necesiten, mientras que un CRM es uno de esos servicios que se podrían gestionar con el ERP, este servicio se encarga de mejorar la relacion con el cliente, con distintas caracteristicas. 
+
+            - Después estos se diferencian del CMS en que el CMS es un servicio web que facilita a la empresa a mantener paginas webs o blogs actualizados facitilando características como la programación de entradas o la facil introducción de estos.
+            - Y por último, el E-Learning, es facilitar a la formación utilizando elementos digitales.
+
+            - Como podemos percatarnos, todo entran dentro del ERP, y después cada uno agraga sus funcionalidades.
+    - Termina el trabajo ubicando en alguna de esas categorías los siguientes programas:
+
+        - OpenBravo: 
+
+        - Microsoft Dynamics:
+
+        - OpenERP:
+
+        - Drupal:
+
+        - Joomla:
+
+        - WordPress:
+
+        - OpenCMS:
+
+        - SAP:
+
+        - Blogger:
+
+        - Moodle:
+
+        - DropBox:
 
 
 </div>

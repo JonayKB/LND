@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div align="center">
+<h1>RACISMO</h1>
+Una historia de superación y placer
+</div>
+<svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="50" cy="500" r="40" stroke="green" stroke-width="4" fill="yellow" />
+   <circle cx="800" cy="50" r="35" stroke="purple" stroke-width="4" fill="red" />
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="green" />
+   <circle cx="800" cy="500" r="40" stroke="red" stroke-width="4" fill="green" />
+   <ellipse rx="200" ry="50" cx="430" cy="400"
+  style="fill:red;stroke:black;stroke-width:3" />
+  <polygon points="400,310 340,498 490,378 310,378 460,498"
+  style="fill:lime;stroke:purple;stroke-width:5;" />
+   <rect x="300" y="150" width="245" height="245" stroke="grey" rx="30" ry="30"stroke-width="4" fill="black" />
+   
+  <line x1="0" y1="0" x2="2000" y2="1300" style="stroke:#8b0000;stroke-width:2" />
+  <line x1="1000" y1="0" x2="0" y2="500" style="stroke:#8b0000;stroke-width:2" />
+</svg> 
+ 
+</body>
+</html>
+

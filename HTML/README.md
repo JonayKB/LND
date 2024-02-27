@@ -5,4 +5,5 @@
 1. [Listas Combinadas](/HTML/listas/listasCombinadas.html)
 1. [Listas](/HTML/listas/listas.html)
 1. [Tablas1](/HTML/tablas/tablas1.html)
+1. [Ejercicio Tablas](/HTML/tablas/ejercicioTablas/index.html)
 </div>

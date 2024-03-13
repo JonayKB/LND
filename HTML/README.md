@@ -8,5 +8,9 @@
 1. [Ejercicio Tablas](/HTML/tablas/ejercicioTablas/index.html)
 1. [Modelo01](/HTML/tablas/modelo01/index.html)
 1. [Modelo02](/HTML/tablas/modelo02/index.html)
+1. [Modelo03](/HTML/tablas/modelo03/index.html)
+1. [Modelo04](/HTML/tablas/modelo04/index.html)
+
+
 
 </div>

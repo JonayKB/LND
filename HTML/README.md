@@ -10,6 +10,11 @@
 1. [Modelo02](/HTML/tablas/modelo02/index.html)
 1. [Modelo03](/HTML/tablas/modelo03/index.html)
 1. [Modelo04](/HTML/tablas/modelo04/index.html)
+1. [Maqueta1](/HTML/maquetas/maqueta1/pages/index.html)
+1. [Maqueta2](/HTML/maquetas/maqueta2/pages/index.html)
+1. [Maqueta3](/HTML/maquetas/maqueta3/pages/index.html)
+1. [Formulario1](/HTML/maquetas/maqueta1/pages/index.html)
+
 
 
 

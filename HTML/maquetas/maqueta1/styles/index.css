@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+nav,
+header,
+main,
+footer,
+aside {
+    border-style: solid;
+    border-color: black;
+    height: 600px;
+    float: left;
+    width: 80%;
+}
+
+nav {
+    background-color: blue;
+}
+
+header {
+    color: white;
+    background-color: black;
+    float: none;
+}
+
+main {
+    background-color: aquamarine;
+
+}
+
+aside {
+    background-color: orange;
+
+
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+}

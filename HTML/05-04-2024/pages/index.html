@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Jonay Contreras Rodriguez</h3>
+    <fieldset>
+        <legend>Datos del propietario</legend>
+        <label title="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label>Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="Hombre"> Hombre
+
+        <input type="radio" id="mujer" name="sexo" value="Mujer"> Mujer
+
+    </fieldset>
+    <fieldset>
+        <legend>Datos del vehículo</legend>
+        <label title="marcaModelo">Marca/modelo:</label>
+        <input type="text" name="marcaModelo" id="marcaModelo">
+        <br>
+        <label title="matricula">Matricula:</label>
+        <input type="text" name="matricula" id="matricula">
+        <br>
+        <label for="caracteristicas">Características:</label>
+        <select id="caracteristicas" name="caracteristicas" size="3" multiple>
+        <option value="utilitario">Utilitario</option>
+        <option value="todoTerreno">Todo Terreno</option>
+        <option value="altaGama">Alta Gama</option>
+        </select>
+        <br>
+        Otros datos:
+        <br>
+        <input type="checkbox" id="servofrenos" name="servofrenos" value="servofrenos">
+        <label for="vehicle1"> Servofrenos</label>
+        <input type="checkbox" id="elevalunas" name="elevalunas" value="elevalunas">
+        <label for="vehicle2"> Elevalunas</label>
+        <input type="checkbox" id="remolque" name="remolque" value="remolque">
+        <label for="vehicle3"> Remolque</label>
+    </fieldset>
+</body>
+</html>

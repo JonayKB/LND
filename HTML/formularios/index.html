@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .formulario{
+            margin-right: 10px;
+            float:left;
+        }
+        #datos{
+            background:lightgray;
+        }
+        #adjuntos{
+            background-color: rgba(255, 0, 0, 0.644);
+        }
+        #acceso{
+            background-color: rgba(255, 166, 0, 0.486);
+        }
+        legend{
+            border: 1px solid black;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HOJA DE INSCRIPCION</h1>
+    <h1> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <fieldset id="datos">
+        <legend>Datos Personales</legend>
+    <div class="formulario">
+        <p>Nombre:</p>
+        <input type="text" name="nombre" id="nombre">
+    </div>
+    <div class="formulario">
+        <p>Apellidos:</p>
+        <input type="text" name="apellidos" id="apellidos">
+    </div>
+    <div class="formulario">
+        <p>DNI:</p>
+        <input type="text" name="dni" id="dni">
+    </div>
+
+    <div class="formulario">
+        <p>Localidad Nacimiento:</p>
+        <input type="text" name="localidad" id="localidad">
+    </div>
+    <div class="formulario">
+        <p>Provincia:</p>
+        <select name="pronvincia" id="provincia" >
+            <option value="null">Eliga Una Provincia</option>
+            <option value="madrid">Madrid</option>
+            <option value="santaCruz">Santa Cruz</option>
+        </select>
+    </div>
+    <div class="formulario">
+        <p>Fecha Nacimiento:</p>
+        <input type="date" name="nacimiento" id="nacimiento">
+    </div>
+    <div class="formulario" id="direccion">
+        <p>Direccion:</p>
+        <input type="text" name="direccion" id="direccion">
+    </div>
+    <div class="formulario">
+        <p>Codigo Postal:</p>
+        <input type="text" name="codigo" id="codigo">
+    </div>
+    </fieldset>
+    <fieldset id="acceso">
+        <legend>Forma de Acceso</legend>
+        <input type="radio" name="acceso" id="acceso">
+      
+
+    </fieldset>
+    <fieldset id="adjuntos">
+        <legend>Documentos Adjuntados</legend>
+        <input type="checkbox" name="fotodni" id="fotodni">FotoCopia DNI
+        <input type="checkbox" name="certificado" id="certificado">Certificado Academico
+        <input type="checkbox" name="documentos" id="documentos">Otros documentos(especifique) <input type="text" name="otros" id="otros">
+        
+    </fieldset>
+    <input type="button" value="Enviar Solicitud"/>
+</body>
+</html>

@@ -25,19 +25,30 @@
                     <li><a href="admins.html">Administradores</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="https://github.com/JonayKB">Contacto</a></li>
         </ul>
     </nav>
     <main>
         <section id="inputs">
-            <section id="nameSurname">
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name" placeholder="Juanito">
-            <label for="name">Apellido</label>
+            <section id="nameSurname" class="inputs">
+                <label for="name">Nombre</label> <br>
+                <input type="text" name="name" id="name" placeholder="Juanito"> <br>
+            <label for="name">Apellido</label> <br>
             <input type="text" name="surname" id="surname" placeholder="Rodriguez">
             </section> 
-        </section>
-        
+            <section id="dniAge" class="inputs">
+                <label for="edad">Edad</label> <br>
+                <input type="number" name="edad" id="edad" placeholder="Mayor de 18"> <br>
+                <label for="dni">DNI</label> <br>
+                <input type="TEXT" name="dni" id="dni" placeholder="12345678F">
+            </section>
+            <section id="dniAge" class="inputs">
+                <label for="banco">Banco</label> <br>
+                <input type="text" name="banco" id="banco" placeholder="Sabadell"> <br>
+                <label for="tarjeta">Tarjeta</label> <br>
+                <input type="TEXT" name="tarjeta" id="tarjeta" placeholder="3123 1231 3123 3123">
+            </section>
+            <input type="submit" value="Enviar Datos" id="enviar" onclick="alert('Usuario Creado')">
         </section>
     </main>
 </body>

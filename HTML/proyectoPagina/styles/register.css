@@ -30,11 +30,13 @@ nav a {
     background-color: black;
     display: block;
     padding: 2px 10px;
+    transition: ease-in-out .5s;
 }
 
 nav a:hover {
     background-color: rgb(55, 1, 77);
-    transition: background-color 0.5s;
+    transition: ease-in-out .5s;
+
 }
 
 nav ul {
@@ -58,6 +60,11 @@ main{
     background-color: black;
     color: white;
     z-index: 0;
+    box-shadow: 10px 10px 10px gray;
+    animation: entrance 0.5s ease 0s 1 normal forwards;
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
 }
 #inputs{
     text-align: center;
@@ -71,7 +78,7 @@ main{
     padding-left: 10px;
 }
 #enviar{
-    margin-top: 100px;
+    margin-top: 5px;
     height: 100px;
     width: 20%;
     font-size: 20px;
@@ -80,5 +87,15 @@ main{
     border-radius: 3%;
     border-color: white;
 }
+@keyframes entrance {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
 
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
 

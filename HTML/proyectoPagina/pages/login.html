@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicia Sesion</title>
+    <title>Iniciar Sesion</title>
     <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
-    <nav>
+    <nav class="container-nav">
         <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Se tu propio Jefe</a>
@@ -25,9 +25,20 @@
                     <li><a href="admins.html">Administradores</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="https://github.com/JonayKB">Contacto</a></li>
         </ul>
     </nav>
-
+    <main>
+        <section id="inputs">
+            <section id="login" class="inputs">
+                
+                <label for="dni">DNI</label> <br>
+                <input type="TEXT" name="dni" id="dni" placeholder="12345678F"><br>
+                <label for="contraseña">Contraseña</label> <br>
+                <input type="password" name="contraseña" id="contraseña" placeholder="*********"> 
+            </section>
+            <input type="submit" value="Enviar Datos" id="enviar" onclick="alert('Bienvenido Usuario')">
+        </section>
+    </main>
 </body>
 </html>

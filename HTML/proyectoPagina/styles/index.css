@@ -58,7 +58,7 @@ main{
     left: 10%;
     right: 10%;
 	background-color: rgba(0, 0, 0, 0.897);
-	height: 900px;
+	height: 1300px;
 }
 footer{
 	width: 100%;
@@ -85,7 +85,7 @@ aside{
 	border-style: double;
     border-color: white;
     border-width: 5px;
-	z-index: 0;
+	z-index: 1;
 }
 
 aside>a{
@@ -100,7 +100,7 @@ aside>a{
     text-decoration: none;
     color: white;
     animation: registrarAumentar 5s infinite alternate;
-
+	text-align: center;
 }
 aside:hover{
     transition: ease-in-out .5s;
@@ -184,4 +184,80 @@ aside:hover{
 aside>img{
     width: 140px;
     margin-left: 20%;
+
+}
+
+footer>a>img{
+	margin-top: 15px;
+	width: 40px;
+	filter: invert();
+}
+h1{
+	text-align: center;
+	top: 120px;
+	color: white;
+}
+.texto{
+	z-index: 0;
+	margin-top: 10px;
+	perspective: 500px;
+	width: 25%;
+	animation: entradaIzquierda 4s ease 0s 1 normal forwards;
+	
+}
+.texto>p{
+	padding: 20px;
+	background-color: black;
+	border: 2px white double;
+	margin-left: 60px;
+	transform: rotateX(0deg) rotateY(18deg);
+	transform-style: preserve-3d;
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+}
+.texto:nth-child(2n){
+	margin-left: 70%;
+	animation: entradaDerecha 4s ease 0s 1 normal forwards;
+}
+
+.texto:nth-child(2n)>p{
+	transform: rotateX(0deg) rotateY(-18deg);
+	transform-style: preserve-3d;
+	color: white;
+	text-align: justify;
+}
+h3{
+	color: white;
+	background-color: black;
+	border: 1px white double;
+	width: 40%;
+	margin-left: 30%;
+	text-align: center;
+	white-space: pre-line;
+	line-height: 3;
+}
+
+@keyframes entradaDerecha {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes entradaIzquierda {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

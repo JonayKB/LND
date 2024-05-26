@@ -59,8 +59,8 @@ main{
 
     background: #ffffff url(/img/background.jpg) center center/cover no-repeat;
 
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
     width: 100%;
 background-color: black;
     height: 1300px;
